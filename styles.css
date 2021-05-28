@@ -1,0 +1,24 @@
+body {
+    background-color: white;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.title {
+    background-color: black;
+    width: 100%;
+    height: 10%;
+}
+
+.navlist {
+    list-style-type: none;
+    color: black;
+}
+
+.nav {
+    background-color: rgb(92, 92, 92);
+    width: 30%;
+    height: 100vh;
+    align-self: left;
+    position: sticky;
+}
