@@ -30,20 +30,21 @@ body {
 }
 
 .active {
-    color: white;
+    color: green; /* This is the colour shown when the user is on the page. For example,
+                        being on the page 'Home' would make the home text in the left side green */
 }
 
 a:link {
     text-decoration: none;
-    color: rgb(126, 126, 126);
+    color: rgb(126, 126, 126); /* Colour of the links on the left hand side */
 }
 a:visited {
     text-decoration: none;
-    color: rgb(126, 126, 126);
+    color: inherit;
 }
 a:hover {
     text-decoration: none;
-    color: white;
+    color: rgb(134, 247, 105);
 }
 a:active {
     text-decoration: none;
@@ -52,10 +53,15 @@ a:active {
 
 .nav {
     background-color: rgb(66, 66, 66);
-    width: 30%;
+    width: 20%;
     height: 90vh;
     padding: 0px;
     margin: 0px;
     align-self: left;
-    position: sticky;
+    position: fixed;
+    overflow: auto;
+}
+
+.maindiv {
+    margin-left: 25%;
 }
