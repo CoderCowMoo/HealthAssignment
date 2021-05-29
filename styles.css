@@ -22,11 +22,10 @@ body {
 
 .navlist {
     list-style-type: none;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 20px;
     font-size: 30px;
     font-family: sans-serif;
-    opacity: 0.1px;
 }
 
 .active {
@@ -50,22 +49,22 @@ a:hover {
 
 .nav {
     background-color: rgb(243, 216, 176); /* Colour of the left side navigation bar*/
-    width: 20%;
-    height: 100vh;
+    width: 18%;
+    height: 100%;
     padding: 0px;
     margin: 0px;
     align-self: left;
     position: fixed;
-    overflow: auto;
+    bottom: 1px;
 }
 
 .maindiv {
-    margin-left: 25%;
-    margin-top: 4%;
+    margin-left: 22%;
+    margin-top: 4%; 
 }
 
 .navmain {
-    height: 1000px;
+    height: 100%;
     width: 20%;
     padding: 0px;
     margin: 0px;
