@@ -36,7 +36,7 @@ body {
 
 a:link {
     text-decoration: none;
-    color: rgb(126, 126, 126); /* Colour of the links on the left hand side */
+    color: rgb(255, 255, 255); /* Colour of the links on the left hand side */
 }
 a:visited {
     text-decoration: none;
@@ -44,17 +44,14 @@ a:visited {
 }
 a:hover {
     text-decoration: none;
-    color: rgb(134, 247, 105);
-}
-a:active {
-    text-decoration: none;
-    color: rgb(126, 126, 126);
+    color: rgb(134, 247, 105); /* Colour of the link when the mouse is on them */
 }
 
+
 .nav {
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(66, 66, 66); /* Colour of the left side navigation bar*/
     width: 20%;
-    height: 90vh;
+    height: 100vh;
     padding: 0px;
     margin: 0px;
     align-self: left;
@@ -64,4 +61,13 @@ a:active {
 
 .maindiv {
     margin-left: 25%;
+}
+
+.navmain {
+    height: 1000px;
+    width: 20%;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    background-color: rgb(66, 66, 66);
 }
