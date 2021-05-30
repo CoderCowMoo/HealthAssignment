@@ -28,11 +28,6 @@ body {
     font-family: sans-serif;
 }
 
-.active {
-    color: rgb(241, 145, 34); /* This is the colour shown when the user is on the page. For example,
-                        being on the page 'Home' would make the home text in the left side green */
-}
-
 a:link {
     text-decoration: none;
     color: rgb(0, 0, 0); /* Colour of the links on the left hand side */
@@ -74,6 +69,10 @@ a:hover {
 
 .maintext {
     font-size: 20px;
+}
+
+.maintitles {
+    font-size: 30px;
 }
 
 .maindiv-message {
