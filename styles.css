@@ -51,6 +51,7 @@ a:hover {
     align-self: left;
     position: fixed;
     bottom: 1px;
+    border-right: 6px solid black;
 }
 
 .maindiv {
@@ -93,4 +94,9 @@ a:hover {
     text-indent: 30px;
     font-size: 20px;
     padding-top: 15px;
+}
+
+.help-list {
+    list-style-type: square;
+    font-size: 21px;
 }
